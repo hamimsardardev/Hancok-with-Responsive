@@ -1,0 +1,504 @@
+@media (min-width:320px) and (max-width:767px) {
+  header{
+    z-index: 999;
+  }
+  .nav_button{
+    background: firebrick;
+  }
+  .menu_bar{
+    background:  #FF4655;
+  }
+  header .navbar-nav {
+    gap: 5px;
+    margin-left: 0px;
+    text-align: center;
+}  
+header nav .icon ul {
+  gap: 15px;
+  text-align: center;
+  justify-content: center;
+}
+header nav .icon ul:hover {
+  color: black;
+}
+/* ----------------nav end---------------- */
+/* ----------------banner start---------------- */
+#gaming_part .text_area h1 {
+  font-size: 38px;
+}
+#gaming_part .text_area h1::after {
+  display: none;
+}
+#gaming_part .text_area p {
+  width: 100%;
+}
+#gaming_part {
+  padding: 150px 0 60px;
+}
+#gaming_part .text_area a {
+  margin: 20px 0 100px;
+}
+/* ----------------banner end---------------- */
+/* ----------------about start---------------- */
+#about_part .title h2 { 
+  width: auto;
+  font-size: 30px;
+}
+#about_part .title h2::after {
+  display: none;
+}
+#about_part .about_wrapper{
+  display:inline-block;
+}
+#about_part .about_wrapper .image{
+  width: 100%;
+}
+#about_part .about_wrapper .image img {
+  width: 100%;
+}
+#about_part .about_wrapper .text_area{
+  width: 100%;
+}
+#about_part .about_wrapper .text_area ul li {
+  font-size: 15px;
+}
+#about_part .about_wrapper .text_area p {
+  font-size: 15px;
+}
+#about_part .about_wrapper .text_area a {
+  margin: 20px 0;
+}
+#about_part .count {
+  display:inline-block;
+}
+#about_part .count .card {
+ margin-bottom: 15px;
+}
+/* ----------------about end---------------- */
+/* ----------------populargames start---------------- */
+#popular_games h3 {  
+  text-align: start;
+  width: 100%;
+  margin-left: 0px;
+  font-size: 30px;
+  padding-top: 40px;
+}
+#popular_games h3::after {
+  right: 175px;
+}
+#popular_games .left_image span {
+  position: static;
+}
+#popular_games .left_image span img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#popular_games .right_image img {
+  width: 100%;
+}
+#popular_games .games_slide {
+  margin-top: -115px;
+}
+#popular_games #nextarea {
+  top: 501px;
+}
+#popular_games #prevarea {
+  top: 445px;
+  left: 325px;
+}
+/* ----------------populargames end---------------- */
+/* ----------------live streaming start---------------- */
+#live_stream .title h2 {
+  font-size: 33px;
+  width: auto;
+}
+#live_stream .title h2::after {
+  right: 75px;
+}
+#live_stream .row {
+  margin-top: 25px;
+}
+#live_stream .row img {
+  width: 100%;
+}
+#live_stream .row img:hover {
+  transform: scale(.9);
+  filter: grayscale(0);
+}
+#previous_match .item_01 {
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+#previous_match .item_02 {
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%); 
+}
+#previous_match .item_03 {
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);  
+}
+
+/* ----------------live streaming end---------------- */
+/* ----------------top_games start---------------- */
+
+#top_games {
+  padding-top: 60px;
+}
+#top_games h2 {
+  font-size: 30px;
+  width: auto;
+  text-align: end;
+}
+#top_games h2::after {
+  right: 190px;
+}
+#top_games .main_part {
+  text-align: center;
+}
+#top_games .games_text ul{
+  justify-content: center;
+ }
+/* ----------------top_games end---------------- */
+/* ----------------favorite_games start---------------- */
+#favorite_games .favorite_title h2 {
+  font-size: 29px; 
+  width: auto;
+}
+#favorite_games .favorite_title p {
+  font-size: 14px;
+  width: auto;
+}
+#favorite_games .favorite_title  a {
+  margin: 25px 0;
+}
+#favorite_games .popular_image img {
+  width: 100%;
+}
+/* ----------------favorite_games start---------------- */
+/* ----------------gaming_accessories start---------------- */
+#gaming_accesories .accesories_card {
+  padding: 45px 0 50px;
+}
+#gaming_accesories .accesories_title h2 {
+  font-size: 30px;
+  width: auto;
+  padding-top: 45px;
+}
+#gaming_accesories .accesories_title h2::after {
+  display: none;
+}
+#gaming_accesories .card_1{
+  margin-bottom: 10px;
+}
+#gaming_accesories #gaming_slide1 {
+  top: 288px;
+}
+#gaming_accesories #gaming_slide2 {
+  top: 288px;
+}
+#gaming_accesories .card_1 p {
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+#gaming_accesories .card_1 {
+  padding: 5px 15px;
+}
+#gaming_accesories .accesories_card img {
+  width: 100%;
+}
+/* ----------------gaming_accessories end---------------- */
+/* ----------------professional_team start---------------- */
+#professional_team {
+  padding: 50px 0 50px;
+}
+#professional_team .professional_title {
+  margin-bottom: 40px;
+}
+#professional_team .professional_title h2 {
+  font-size: 28px;
+  width: auto;
+}
+#professional_team .prefessional_image img {
+  width: 100%;
+}
+#professional_team .prefessional_image2 img {
+  width: 100%;
+}
+#professional_team .paladins {
+  padding: 10px 0 15px 15px;
+  width: 100%;
+}
+#professional_team .paladins .paladins_icon {
+  bottom: 14px;
+}
+/* ----------------professional_team end---------------- */
+/* ----------------frequently_part start---------------- */
+#frequently_part .frequent_title {
+  padding: 40px 0 60px;
+}
+#frequently_part .frequent_title h2 {
+  font-size: 25px;
+  width: auto;
+}
+#frequently_part .frequent_title h2::after {
+  left: 230px;
+}
+#frequently_part .game_text span a {
+  font-size: 20px;
+  padding: 10px 25px;
+  margin-right: 25px;
+}
+#frequently_part .game h4 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin: 11px;
+}
+#frequently_part .game p {
+  font-size: 14px;
+  width: auto;
+  padding-bottom: 20px;
+}
+#frequently_part .frequent_row::after {
+ display: none;
+}
+#frequently_part .game_text {
+  margin-top: 10px;
+  border-bottom: 1px solid #666666;
+}
+#frequently_part .frequent_row {
+  padding-top: 20px;
+  border-top: none;
+}
+#frequently_part .subscribe{
+  width: auto;
+  display: inline-block;
+}
+#frequently_part .subscribe h2 {
+  font-size: 20px;
+  width: auto;
+  padding: 20px 0 21px 18px;
+}
+#frequently_part .subscribe .input_box {
+  margin-bottom: 10px;
+}
+#frequently_part .subscribe span a {
+  right: 15px;
+  bottom: 10px;
+}
+#frequently_part .subscribe input {
+  padding:10px 110px 10px 30px;
+  margin-left: 10px;
+}
+/* ----------------frequently_part end---------------- */
+/* ----------------footer start---------------- */
+footer p {
+  font-size: 15px;
+  width: auto;
+}
+footer .footer_icon {
+  margin-bottom: 10px;
+}
+footer ul {
+  margin-top: 24px;
+}
+footer .gallery{
+  margin-top: 10px;
+}
+footer .gallery .gelleryrow_2{
+  margin-top: 10px;
+}
+footer .gallery .gallery_image img{
+  width: 100%;
+}
+footer .gallery .gelleryrow_2 img{
+  width: 100%;
+}
+/* ----------------footer end---------------- */
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  /* --------------nav start-------- */
+  header .navbar-nav {
+    gap: 20px;
+    margin-left: 15px;
+}
+header nav .icon ul {
+  gap: 20px;
+}
+ /* --------------nav start-------- */
+ /* --------------banner start-------- */
+ #gaming_part {
+  padding: 150px 0 103px;
+}
+#gaming_part .text_area h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #FFFFFF;
+  position: relative;
+}
+#gaming_part .text_area h1::after {
+  display: none;
+}
+#gaming_part .text_area a {
+  margin: 35px 0 100px;
+}
+#about_part .title h2 {
+  padding: 30px 0 40px;
+}
+#about_part .about_wrapper {
+  display: inline-block;
+}
+#about_part .about_wrapper .image {
+  width: 100%;
+}
+#about_part .about_wrapper .text_area {
+  width: 100%;
+}
+#about_part .about_wrapper .text_area a {
+  margin: 30px 0;
+}
+#about_part .count .card {
+  height: 115px;
+  margin-top: 10px;
+}
+#about_part .count h4 {
+  font-size: 40px;
+}
+#about_part .count p {
+  font-size: 15px;
+}
+#about_part .count {
+  display: grid;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+ /* --------------banner end-------- */
+ /* --------------popular games start-------- */
+
+ #popular_games h3 {  
+  text-align: start;
+  width: 100%;
+  margin-left: 0px;
+  font-size: 30px;
+  padding-top: 40px;
+}
+#popular_games h3::after {
+  right: 175px;
+}
+#popular_games .left_image span {
+  position: static;
+}
+#popular_games .left_image span img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#popular_games .right_image img {
+  width: 100%;
+}
+#popular_games .games_slide {
+  margin-top: -150px;
+}
+#popular_games #nextarea {
+  top: 1000px;
+}
+#popular_games #prevarea {
+  top: 1065px;
+  left: 715px;
+}
+/* --------------popular games start-------- */
+/* --------------live straming start-------- */
+#previous_match .item_01 {
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+#previous_match .item_02 {
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%); 
+}
+#previous_match .item_03 {
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);  
+}
+#previous_match .item_01 h4 {
+  font-size: 28px;
+}
+#previous_match .item_03 h4 {
+  font-size: 28px;
+}
+#previous_match .item_02 .time h5 {
+  font-size: 30px;
+}
+/* --------------live straming start-------- */
+/* --------------gaming accesories start-------- */
+#gaming_accesories .accesories_card {
+  padding: 90px 0 90px;
+}
+#gaming_accesories .card_1 {
+  margin:0 0 20px 0;
+}
+#gaming_accesories #gaming_slide2 {
+  top: 558px;
+}
+#gaming_accesories #gaming_slide1 {
+  top: 558px;
+}
+/* --------------gaming accesories end-------- */
+/* --------------professional team start-------- */
+#professional_team .prefessional_image img {
+  width: 100%;
+}
+#professional_team .prefessional_image2 img {
+  width: 100%;
+}
+#professional_team .paladins h4 {
+  font-size: 20px;
+}
+#professional_team .paladins {
+  padding: 14px 0 15px 15px;
+  width: 100%;
+  display: block;
+}
+#professional_team .paladins p {
+  width: 300px;
+  margin-top: 3px;
+}
+/* --------------professional team end-------- */
+#frequently_part .frequent_title {
+  padding: 42px 0 56px;
+}
+#frequently_part .game_text span a {
+  font-size: 23px;
+  color: #FFFFFF;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+#frequently_part .game h4 {
+  font-size: 18px;
+}
+#frequently_part .game p {
+  font-size: 14px;
+  width: auto;
+  padding-bottom: 25px;
+}
+#frequently_part .frequent_row {
+  padding-top: 40px;
+  border-top: none;
+}
+#frequently_part .frequent_row::after {
+  display: none;
+}
+#frequently_part .subscribe {
+  width: auto;
+}
+#frequently_part .subscribe h2 {
+  font-size: 30px;
+  width: auto;
+  padding: 15px 0 15px 20px;
+}
+#frequently_part .subscribe span a {
+  right: 15px;
+  bottom: 47px;
+}
+footer p {
+  margin-top: 15px;
+}
+footer ul {
+  margin: 29px 0;
+}
+}
